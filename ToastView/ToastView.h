@@ -21,8 +21,8 @@ typedef NS_ENUM(NSInteger,ToastType){
 //设置toast提示图标样式
 @property (nonatomic, assign) ToastType showType;
 
-- (id)initWithParentView:(UIView*)parentView andText:(NSString*)text;
-- (id)initWithParentView:(UIView*)parentView andText:(NSString*)text showType:(ToastType)type;
+- (id)initWithParentView:(UIView *)parentView andText:(NSString *)text;
+- (id)initWithParentView:(UIView *)parentView andText:(NSString *)text showType:(ToastType)type;
 - (void)show;
 
 - (void) setYOffset:(int) yOffset;

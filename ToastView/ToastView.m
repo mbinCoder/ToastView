@@ -10,7 +10,7 @@
 
 @implementation ToastView
 
-- (id)initWithParentView:(UIView*)parentView andText:(NSString*)text
+- (id)initWithParentView:(UIView *)parentView andText:(NSString *)text
 {
     self = [super init];
     if (self) {
@@ -39,7 +39,7 @@
     }
     return self;
 }
-- (id)initWithParentView:(UIView*)parentView andText:(NSString*)text showType:(ToastType)type
+- (id)initWithParentView:(UIView *)parentView andText:(NSString *)text showType:(ToastType)type
 {
     self = [super init];
     if (self) {
